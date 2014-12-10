@@ -1,0 +1,41 @@
+<Alloy>
+	<View class="container">
+		<ScrollView id="datosPersonales">
+
+				<View class="header">
+					<Widget src="nl.fokkezb.cachedImageView" id="imagen"/>
+					<View id="personales">
+						<View id="subPersonales">
+							<Label class="noBold" text="Nombre"></Label>
+							<Label class="bold" id="name"></Label>
+							<View id="separador"></View>
+							
+							<Label class="noBold" text="Email"></Label>
+							<Label class="bold" id="email"></Label>
+							<View id="separador"></View>
+						
+							<Label class="noBold" text="Genero"></Label>
+							<Label class="bold" id="sexo"></Label>
+							<View id="separador"></View>
+
+							<Label class="noBold" text="Tipo"></Label>
+							<Label class="bold" id="tipo"></Label>
+							<View id="separador"></View>
+							
+							<Label class="noBold" text="Publicaciones"></Label>
+							<Label class="bold" id="cantPublicaciones"></Label>
+							<View id="separador"></View>
+						</View>
+					</View>
+				</View>
+				<View id="body">
+
+					<View id="vistaCerrar">
+						<Button backgroundImage="/logout.png" id="cerrar"></Button>-->
+					</View>
+
+					<View id="separador"></View>		
+				</View>
+	</ScrollView>
+	</View>
+</Alloy>

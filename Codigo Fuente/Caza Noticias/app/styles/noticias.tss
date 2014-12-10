@@ -1,0 +1,209 @@
+"#tableView": {
+	showVerticalScrollIndicator: true,
+	height: Ti.UI.SIZE
+},
+".noticias": {
+	layout: "vertical",
+	height: Ti.UI.SIZE,
+	top: 11
+},
+".vistaTexto": {
+	left: 11,
+	right: 11,
+	color: "black",
+	backgroundColor: "white",
+	height: Titanium.UI.SIZE,
+	layout: "vertical",
+	borderRadius : 1,
+	borderColor: "gray",
+	borderWidth: 0.2
+},
+"#separar":{
+	width: Titanium.UI.FILL,
+	height: 11,
+	backgroundColor: "#c4cde0"
+},
+".titleNews": {
+	left: 5,
+	right: 5,
+	color: "black",
+	font:{
+        fontSize: '17sp',
+        fontWeight: 'bold'
+  	}
+},
+".fondoScroll": {
+	height: 240
+},
+".fondo": {
+	height: Titanium.UI.FILL,
+	backgroundColor: "white",
+	left: 11,
+	right: 11
+},
+".horizontal": {
+	scrollType: "horizontal",
+	height: Titanium.UI.FILL,
+	showPagingControl: true,
+	layout: "horizontal"
+},
+".vistasImagenes": {
+	layout: "horizontal",
+	backgroundColor: "transparent"
+},
+".imagen": {
+	left: 5,
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+},
+".ubicacion": {
+	left: 5,
+	font:{
+        fontSize: '9sp',
+        fontFamily:'Georgia-Italic'
+	},
+  	width: Titanium.UI.FILL,
+  	textAlign: "center"
+},
+".writeNews": {
+	left: 5,
+	right: 5,
+	bottom: 2,
+	color: "black",
+	font:{
+        fontSize: '14sp'
+  	},
+},
+".verMas": {
+	color: "gray",
+	font:{
+        fontSize: '8sp'
+ 	},
+  	top: -4,
+  	height: 10,
+	width: "20%",
+	title: "Ver Más",
+	color: "white",
+	backgroundColor: "#3696B2",
+	borderRadius: 5
+},
+".valoracion": {
+	height: Titanium.UI.SIZE,
+	left: 5,
+	top: 5,
+	bottom: 5
+},
+".imgValoracion1": {
+	right: 5,
+	width: 15
+},
+".imgValoracion2": {
+	right: 40,
+	width: 15
+},
+".imgValoracion3": {
+	right: 75,
+	width: 15
+},
+".imgValoracion4": {
+	right: 110,
+	width: 15
+},
+".imgValoracion5": {
+	right: 145,
+	width: 15
+},
+".textoValoracion":{
+	width: Titanium.UI.SIZE,
+	left: 0,
+	font:{
+        fontSize: '13sp',
+        fontFamily: 'Arial'
+ 	},
+},
+".separador": {
+	left: 11,
+	right: 11,
+	color: "black",
+	backgroundColor: "#c4cde0",
+	height: 0.5
+},
+".footerNews": {
+	backgroundColor: "transparent",
+	top: 5,
+	left: 5,
+	right: 5,
+	bottom: 5,
+	layout: "horizontal",
+	height: 36
+},
+".imagenPerfil":{
+	height: Titanium.UI.FILL,
+	width: "9%"
+}
+
+".imagenFooterNews": {
+	height: Titanium.UI.FILL,
+	width: "9%"
+},
+".datosUsusario": {
+	layout: "vertical",
+	width: "91%",
+	height: Titanium.UI.SIZE
+},
+".textoFooterNewsName": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial',
+        fontWeight: 'bold'
+  	}
+},
+".vistaTipoUsuario": {
+  	width: Titanium.UI.FILL,
+  	height: Titanium.UI.SIZE
+},
+".tipoUsuario": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+  	width: Titanium.UI.SIZE
+},
+".textoFooterNewsDate": {
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+	textAlign: "right",
+	width: Titanium.UI.SIZE,
+	right: 0
+},
+".footerNewsComment": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+},
+".visitas": {
+	left: 5,
+	width: "50%",
+	font:{
+        fontSize: '14sp',
+        fontFamily: 'Arial'
+ 	},
+},
+".comment": {
+	right: 5,
+	textAlign: "right",
+	width: "50%",
+	font:{
+        fontSize: '14sp'
+ 	},
+},
+".tablaFotos": {
+	height: Ti.UI.SIZE
+},
+".tablaPerfil": {
+	height: Ti.UI.FILL,
+	width: "9%"
+}

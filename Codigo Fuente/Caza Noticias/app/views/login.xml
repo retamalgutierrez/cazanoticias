@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="ventana" class="container" exitOnClose="true">
+		<View class="principal">
+			<Button id="login"></Button>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,137 @@
+".container":{
+	backgroundColor: "#c4cde0"
+},
+"#espacioTabla":{
+	left: 11,
+	right: 11,
+	top: 11,
+	backgroundColor: "white",
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+},
+"#tabla":{
+	height: "88.8%"
+},
+".espacioComentario":{
+	layout: "horizontal",
+	left: 5,
+	right: 5,
+	bottom: 5,
+	height: Ti.UI.SIZE
+},
+"#comentario":{
+	width: "67%",
+	right: "1%",
+	height: 38.7,
+	backgroundColor: "#D3D3D3",
+	hintText: "Escribe aquí",
+	color: "black",
+	borderRadius: 5
+},
+"#comentar":{
+	width: "15%",
+	height: 38.7,
+	backgroundColor: "blue",
+	borderRadius: 5,
+	right: "1%",
+},
+"#refresh":{
+	width: "15%",
+	height: 38.7,
+	backgroundColor: "green",
+	borderRadius: 5
+}
+".vistaTexto": {
+	color: "black",
+	backgroundColor: "white",
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	borderRadius : 5,
+	borderColor: "#D3D3D3",
+	borderWidth: 1,
+	right: 10,
+	left: 5,
+	top: 5,
+	layout: "vertical"
+},
+".datosUsusario": {
+	layout: "vertical",
+	width: "91%",
+	height: Ti.UI.SIZE
+},
+".textoFooterNewsName": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial',
+        fontWeight: 'bold'
+  	},
+},
+".vistaTipoUsuario": {
+  	width: Titanium.UI.FILL,
+  	height: Titanium.UI.SIZE
+},
+".tipoUsuario": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+  	width: Titanium.UI.SIZE
+},
+".textoFooterNewsDate": {
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+	textAlign: "right",
+	width: Titanium.UI.SIZE,
+	right: 0
+},
+".tablaPerfil": {
+	height: Ti.UI.FILL,
+	width: "9%",
+},
+".footerNews": {
+	backgroundColor: "transparent",
+	top: 5,
+	left: 5,
+	right: 5,
+	layout: "horizontal",
+	height: 36
+},
+".fondoComentar":{
+	left: 11,
+	right: 11,
+	bottom: 11,
+	backgroundColor: "white",
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+},
+".fondo":{
+	left: 11,
+	right: 11,
+	bottom: 11,
+	top: 11,
+	backgroundColor: "white",
+	height: Ti.UI.FILL
+},
+".separador":{
+	left: 11,
+	right: 11,
+	height: 5,
+	backgroundColor: "black"
+},
+".vistaTxtComentario":{
+	bottom: 5,
+	left: 5,
+	right: 5
+},
+".txtComentario":{
+	left: 0,
+	font:{
+        fontSize: '14sp',
+        fontFamily: 'Arial'
+  	},
+  	color: "black"
+}

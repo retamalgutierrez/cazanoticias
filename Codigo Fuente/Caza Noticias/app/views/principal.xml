@@ -1,0 +1,40 @@
+<Alloy>
+	<Collection src="noticias"></Collection>
+	<Collection src="usuarios"></Collection>
+	<Window class="container" exitOnClose="true">
+		
+		<View id="top">
+			<View id="headerTop">
+				<Label id="titulos" onClick="holap">Inicio</Label>
+				<Button id="publicar" onClick="publicar"></Button>
+				<Button id="buscar" onClick="buscar"></Button>
+			</View>
+			<View id="sep"></View>
+			<View id="header">
+				<View id="tabs">
+					<View id="vistaNews">
+						<ImageView image="/home.png"></ImageView>
+					</View>
+					<View id="vistamyPerfil">
+						<ImageView image="/me.png"></ImageView>
+					</View>
+				</View>
+			</View>
+		</View>
+		
+		<View id="vistaNewsClick">
+			<Require src="noticias"></Require>
+		</View>
+		<View id="vistamyPerfilClick">	
+			<Require src="miPerfil"></Require>
+		</View>
+
+		
+		<!--<Menu>
+			<MenuItem title="Agregar" onClick="addItem"></MenuItem>
+			<MenuItem title="Borrar" onClick="clear"></MenuItem>
+			<MenuItem title="Cerrar Sesion" onClick="cerrarSession"></MenuItem>
+		</Menu>-->
+		
+	</Window>
+</Alloy>

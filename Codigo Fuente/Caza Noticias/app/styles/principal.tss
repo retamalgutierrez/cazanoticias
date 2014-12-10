@@ -1,0 +1,72 @@
+".container": {
+	layout: "vertical",
+	backgroundColor: "#c4cde0"
+},
+"#top": {
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#headerTop": {
+	height: 45,
+	backgroundColor: "#4a7d74",
+},
+"#titulos": {
+	left: 11,
+	font:{
+        fontSize: '17sp',
+        fontWeight: 'bold'
+  	},
+  	width: "68.5%"
+},
+"#buscar": {
+	width: 44,
+	height: 44,
+	borderRadius: 100,
+	backgroundImage:"/seach-icon.png",
+	right: 11
+},
+"#publicar": {
+	width: 44,
+	height: 44,
+	borderRadius: 100,
+	backgroundColor: "blue",
+	right: 66,
+	backgroundImage:"/publish-icon.png"
+},
+"#sep":{
+	width: Titanium.UI.FILL,
+	height: 1,
+	backgroundColor: "#274170"
+},
+"#vistamyPerfilClick":{
+	layout: "vertical"
+},
+"#header": {
+	height: Titanium.UI.SIZE,
+	backgroundColor: "#4a7d74"
+},
+"#tabs": {
+	layout: "horizontal",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+},
+"#vistaNews":{
+	width: "50%",
+	height: Titanium.UI.SIZE
+},
+"#vistamyPerfil":{
+	width: "50%",
+	height: Titanium.UI.SIZE	
+},
+".example": {
+	width: "100px",
+	height: "100px"
+},
+"#tablaImagenes": {
+	scrollType: "horizontal",
+	layout: "horizontal"
+},
+"#imagenRemota": {
+	width: 200,
+	height: 200
+}

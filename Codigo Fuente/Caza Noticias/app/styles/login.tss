@@ -1,0 +1,20 @@
+
+".container": {
+},
+
+".principal": {
+	backgroundColor: "#c4cde0",
+	backgroundImage:"/login.png",
+  	width: "100%",
+  	height: "100%"
+},
+
+"#login": {
+	backgroundImage:"/btnActivo.png",
+	backgroundSelectedImage:"/botonSelected.png",
+	bottom:"20%",
+	width:"50%",
+	height:"14%",
+	borderRadius: 10
+	
+}

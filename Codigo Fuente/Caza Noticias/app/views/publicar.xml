@@ -1,0 +1,29 @@
+<Alloy>
+	<Window class="container">
+		<View id="top">
+			<View id="headerTop">
+				<Label id="seccion" text="Publicación de noticias" onClick="buscarFoto"></Label>
+				<Button id="volver" backgroundImage="/back-icon.png" onClick="volver"></Button>
+			</View>
+			<View id="sep"></View>
+			<Button id="btnPublicar" onClick="publicar"></Button>
+		</View>
+		<View id="separador"></View>
+			<View class="noticias">
+				<Label id="titulos" text="Titulo de la noticia"></Label>
+				<TextField id="textoTitulo"></TextField>
+				<Label id="cantTitulo" text="0/200"></Label>
+
+				<Label id="cuerpo" text="Cuerpo de la noticia"></Label>
+				<TextArea id="textoCuerpo"></TextArea>
+				<Label id="cantCuerpo" text="0/900"></Label>
+				<ScrollView id="fotos">
+				</ScrollView>
+				<Label id="cantFotos" text="0/5"></Label>
+				<View id="upload">
+					<Button id="adjuntar" onClick="adjuntarFoto"></Button>
+					<Button id="camara" onClick="llamarCamara"></Button>
+				</View>
+			</View>
+	</Window>
+</Alloy>

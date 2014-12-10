@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container">
+		<View id="top">
+			<View id="headerTop">
+				<TextField id="titulos" hintText="titulo a buscar..."></TextField>
+				<Button id="volver" backgroundImage="/back-icon.png"></Button>
+			</View>
+		</View>
+		<TableView id="tabla" dataCollection="buscar" onClick="clicFila">
+			<TableViewRow title="{id}">
+				<View class="vistaTexto">
+					<View class="footerNews">
+						<Widget src="nl.fokkezb.cachedImageView" image="{link}" defaultImage="/i.png" class="imagenFooterNews"/>
+						<View class="datosUsusario">
+							<Label class="textoFooterNewsName" text="{titulo}"></Label>
+							<View class="vistaTipoUsuario">
+								<Label class="tipoUsuario" text="{name}"></Label>
+								<Label class="textoFooterNewsDate" text="{fecha}"></Label>
+							</View>
+						</View>
+					</View>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

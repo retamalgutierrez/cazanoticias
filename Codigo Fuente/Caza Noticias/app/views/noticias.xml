@@ -1,0 +1,50 @@
+<Alloy>
+	<TableView id="tableView" dataCollection="noticias" dataTransform="transformFunction" onClick="clicFila">
+		<TableViewRow title="{id}">
+			<View class="noticias">
+				<View class="vistaTexto">
+					<View class="footerNews">
+						<TableView class="tablaPerfil" data="{link}"></TableView>
+						<View class="datosUsusario">
+							<Label class="textoFooterNewsName" text="{name}"></Label>
+							<View class="vistaTipoUsuario">
+								<Label class="tipoUsuario" text="{tipo}"></Label>
+								<Label class="textoFooterNewsDate" text="{fecha}"></Label>
+							</View>
+						</View>
+					</View>
+				</View>
+				<View class="separador"></View>
+				<View class="vistaTexto">
+					<TableView class="tablaValoracion" data="{valoracion}"></TableView>
+				</View>
+				<View class="separador"></View>
+				<View class="vistaTexto">
+					<Label class="titleNews" text="{titulo}"></Label>
+				</View>
+				
+				<TableView class="tablaFotos" data="{fotos}"></TableView>
+				
+				
+				<View class="vistaTexto">
+					<Label class="ubicacion" text="{ubicacion}"></Label>
+					<Label class="writeNews" text="{cuerpo}"></Label>
+					
+					<Button class="verMas"></Button>
+				</View>
+
+				<View class="separador"></View>
+				<View class="vistaTexto">
+					<View class="footerNewsComment">
+						<Label class="visitas" text="{visitas}"></Label>
+						<Label class="comment" className="comment" text="{cantidadComentarios}"></Label>
+					</View>
+				</View>
+				
+			</View>
+
+		</TableViewRow>
+				
+	</TableView>
+	<View id="separar"></View>
+</Alloy>

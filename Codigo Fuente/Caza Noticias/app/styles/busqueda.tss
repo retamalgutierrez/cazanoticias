@@ -1,0 +1,93 @@
+".container": {
+	backgroundColor: "#c4cde0",
+	layout: "vertical"
+},
+"#top": {
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#headerTop": {
+	height: Titanium.UI.SIZE,
+	backgroundColor: "#4A7D74",
+},
+"#titulos": {
+	left: 6,
+	font:{
+        fontSize: '17sp',
+        fontWeight: 'bold'
+  	},
+  	width: "80%"
+},
+"#volver": {
+	width: 44,
+	height: 44,
+	borderRadius: 100,
+	right: 6	
+},
+"#tabla": {
+	showVerticalScrollIndicator: true
+},
+".vistaTexto": {
+	color: "black",
+	backgroundColor: "white",
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".footerNews": {
+	backgroundColor: "transparent",
+	top: 5,
+	left: 5,
+	right: 5,
+	bottom: 5,
+	layout: "horizontal",
+	height: 36
+},
+".imagenFooterNews": {
+	height: Titanium.UI.FILL,
+	width: "9%"
+},
+".datosUsusario": {
+	layout: "vertical",
+	width: "91%",
+	height: Titanium.UI.SIZE
+},
+".textoFooterNewsName": {
+	left: 5,
+	font:{
+        fontSize: '12sp',
+        fontFamily: 'Arial',
+        fontWeight: 'bold'
+  	},
+  	color: "black"
+},
+".vistaTipoUsuario": {
+  	width: Titanium.UI.FILL,
+  	height: Titanium.UI.SIZE
+},
+".tipoUsuario": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+  	width: Titanium.UI.SIZE
+},
+".textoFooterNewsDate": {
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+	textAlign: "right",
+	width: Titanium.UI.SIZE,
+	right: 0
+},
+
+
+
+
+
+
+
+
+
+

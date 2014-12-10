@@ -1,0 +1,230 @@
+".container": {
+	backgroundColor: "#c4cde0",
+	layout: "vertical"
+},
+"#top": {
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+"#headerTop": {
+	height: Titanium.UI.SIZE,
+	backgroundColor: "#4a7d74"
+},
+"#titulos": {
+	left: 11,
+	font:{
+        fontSize: '17sp',
+        fontWeight: 'bold'
+  	}
+},
+"#volver": {
+	right: 11,
+	backgroundImage: "/back-icon.png",
+	width: 44,
+	height: 44,
+	borderRadius: 100
+},
+".noticias": {
+	layout: "vertical"
+},
+".vistaTexto": {
+	left: 11,
+	right: 11,
+	color: "black",
+	backgroundColor: "white",
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".titleNews": {
+	left: 5,
+	right: 5,
+	color: "black",
+	font:{
+        fontSize: '17sp',
+        fontWeight: 'bold'
+  	}
+},
+".verticalNoticia": {
+	scrollType: "vertical",
+	layout: "vertical",
+	showVerticalScrollIndicator: true
+},
+".vistasImagenes": {
+	height: 240,
+},
+".imagen": {
+	left: 5,
+	right: 5,
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+},
+".vistaSeparador": {
+	left: 11,
+	right: 11,
+	backgroundColor: "white",
+	height: 5
+},
+".vistaSeparadorFinal": {
+	left: 11,
+	right: 11,
+	backgroundColor: "#c4cde0",
+	height: 11
+},
+".ubicacion": {
+	left: 5,
+	font:{
+        fontSize: '9sp',
+        fontFamily:'Georgia-Italic'
+	},
+  	width: Titanium.UI.FILL,
+  	textAlign: "center"
+},
+".writeNews": {
+	left: 5,
+	right: 5,
+	bottom: 2,
+	color: "black",
+	font:{
+        fontSize: '14sp'
+  	},
+},
+".verMas": {
+	color: "gray",
+	font:{
+        fontSize: '12sp'
+ 	},
+  	top: -4,
+  	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL
+},
+".valoracion": {
+	height: Titanium.UI.SIZE,
+	left: 5,
+	top: 5,
+	bottom: 5
+},
+".imgValoracion1": {
+	right: 5,
+	width: 15
+},
+".imgValoracion2": {
+	right: 40,
+	width: 15
+},
+".imgValoracion3": {
+	right: 75,
+	width: 15
+},
+".imgValoracion4": {
+	right: 110,
+	width: 15
+},
+".imgValoracion5": {
+	right: 145,
+	width: 15
+},
+".textoValoracion":{
+	width: Titanium.UI.SIZE,
+	left: 0,
+	font:{
+        fontSize: '13sp',
+        fontFamily: 'Arial'
+ 	},
+},
+".separador": {
+	left: 11,
+	right: 11,
+	color: "black",
+	backgroundColor: "#c4cde0",
+	height: 0.5
+},
+".separadorLargo": {
+	backgroundColor: "#c4cde0",
+	height: 11
+},
+".footerNews": {
+	backgroundColor: "transparent",
+	top: 5,
+	left: 5,
+	right: 5,
+	bottom: 5,
+	layout: "horizontal",
+	height: 36
+},
+
+".imagenFooterNews": {
+	height: Titanium.UI.FILL,
+	width: "9%"
+},
+".datosUsusario": {
+	layout: "vertical",
+	width: "91%",
+	height: Titanium.UI.SIZE
+},
+".textoFooterNewsName": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial',
+        fontWeight: 'bold'
+  	},
+},
+".vistaTipoUsuario": {
+  	width: Titanium.UI.FILL,
+  	height: Titanium.UI.SIZE
+},
+".tipoUsuario": {
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+  	width: Titanium.UI.SIZE
+},
+".textoFooterNewsDate": {
+	font:{
+        fontSize: '10sp',
+        fontFamily: 'Arial'
+  	},
+	textAlign: "right",
+	width: Titanium.UI.SIZE,
+	right: 0
+},
+".footerNewsComment": {
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE
+},
+".visitas": {
+	left: 5,
+	width: "50%",
+	font:{
+        fontSize: '14sp',
+        fontFamily: 'Arial'
+ 	},
+},
+".comment": {
+	right: 5,
+	textAlign: "right",
+	width: "50%",
+	font:{
+        fontSize: '14sp'
+ 	},
+},
+"#espacioImagenes":{
+	layout: "vertical",
+	width: Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+},
+"#espacioFotos":{
+	height: Ti.UI.SIZE,
+	left: 5.5,
+	right: 5.5
+},
+"#tablaValoracion":{
+	height: Ti.UI.SIZE,
+	layout: "horizontal"
+},
+"#tablaPerfil":{
+	width: "9%",
+	height: Ti.UI.FILL
+}

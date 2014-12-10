@@ -1,0 +1,92 @@
+
+".container": {
+	layout: "vertical"
+},
+"#datosPersonales": {
+	layout: "vertical",
+	left: 11,
+	top: 11,
+	right: 11,
+	bottom: 11,
+	backgroundColor: "white",
+	borderRadius: 5
+},
+".header": {
+	layout: "horizontal",
+	height: "35%",
+	top: 0
+},
+"#body": {
+	layout: "vertical",
+	height: "60%",
+}
+"#imagen": {
+	height: Titanium.UI.FILL,
+	width: "40%",
+	top: 0,
+	borderColor: "gray",
+	borderWidth: 2,
+	borderRadius: 5,
+	preventDefaultImage: true
+},
+"#personales": {
+	width: "60%",
+	height: Titanium.UI.FILL
+},
+"#subPersonales": {
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: "vertical"
+},
+".bold": {
+	textAlign: "center",
+	color: "black",
+	width: Titanium.UI.FILL,
+	font:{
+        fontSize: '10sp',
+        fontWeight: 'bold'
+  	},
+},
+".noBold": {
+	textAlign: "center",
+	width: Titanium.UI.FILL,
+	font:{
+        fontSize: '9sp'
+  	},
+},
+".bold2": {
+	textAlign: "left",
+	color: "black",
+	width: Titanium.UI.FILL,
+	left: 5,
+	font:{
+        fontSize: '10sp',
+        fontWeight: 'bold'
+  	},
+},
+".noBold2": {
+	textAlign: "left",
+	width: Titanium.UI.FILL,
+	left: 5,
+	font:{
+        fontSize: '9sp'
+  	},
+},
+"#separador": {
+	left: 5,
+	right: 5,
+	backgroundColor: "#c4cde0",
+	width: Titanium.UI.FILL,
+	height: "1.5px"
+},
+
+
+"#cerrar": {
+	width: 72,
+	height: 72,
+	borderColor: "#7BA549",
+	borderRadius: 100
+},
+"#vistaCerrar": {
+	height: Ti.UI.FILL
+}

@@ -1,0 +1,51 @@
+<Alloy>
+	<Collection src="completa"></Collection>
+	<Window class="container">
+		
+		<View id="top">
+			<View id="headerTop">
+				<Label id="titulos">Noticia Completa</Label>
+				<Button id="volver"></Button>
+			</View>
+		</View>
+				
+		<ScrollView class="verticalNoticia">
+				<View class="separadorLargo"></View>
+				<View class="vistaTexto">
+					<View class="footerNews">
+						<View id="tablaPerfil"></View>
+						<View class="datosUsusario">
+							<Label class="textoFooterNewsName" id="name"></Label>
+							<View class="vistaTipoUsuario">
+								<Label class="tipoUsuario" id="tipo"></Label>
+								<Label class="textoFooterNewsDate" id="fecha"></Label>
+							</View>
+						</View>
+					</View>
+				</View>
+				<View class="separador"></View>
+				<View class="vistaTexto">
+					<View id="tablaValoracion"></View>
+				</View>
+				<View class="separador"></View>
+				
+				<View class="vistaTexto">
+					<Label class="ubicacion" id="ubicacion"></Label>
+					<Label class="titleNews" id="titulo"></Label>
+					<Label class="writeNews" id="cuerpo"></Label>
+				</View>
+				<View class="separador"></View>
+
+				<View id="espacioFotos"></View>
+				
+				<View class="vistaTexto">
+					<View class="footerNewsComment">
+						<Label class="visitas" id="visitas"></Label>
+						<Label class="comment" id="cantidadComentarios" onClick="comentar"></Label>
+					</View>
+				</View>
+				
+				<View class="vistaSeparadorFinal"></View>
+		</ScrollView>
+	</Window>
+</Alloy>

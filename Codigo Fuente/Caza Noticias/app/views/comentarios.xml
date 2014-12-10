@@ -1,0 +1,34 @@
+<Alloy>
+	<Collection src="comentarios"></Collection>
+	<Window class="container" onAndroid:back="volver">
+		<View class="fondo"></View>
+		<View id="espacioTabla">
+			<TableView id="tabla" dataCollection="comentarios" dataTransform="transformFunction">
+				<TableViewRow title="{id}">
+					<View class="vistaTexto">
+						<View class="footerNews">
+							<TableView class="tablaPerfil" data="{link}"></TableView>
+							<View class="datosUsusario">
+								<Label class="textoFooterNewsName" text="{name}"></Label>
+								<View class="vistaTipoUsuario">
+									<Label class="tipoUsuario" text="{tipo}"></Label>
+									<Label class="textoFooterNewsDate" text="{fecha}"></Label>
+								</View>
+							</View>
+						</View>
+						<View class="vistaTxtComentario">
+							<Label class="txtComentario" text="{textoComentario}"></Label>
+						</View>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+		<View class="fondoComentar">
+			<View class="espacioComentario">
+				<TextArea id="comentario" onTouchstart="focoComentar"></TextArea>
+				<Button id="comentar" onClick="comentar" title="Ok"></Button>
+				<Button id="refresh" onClick="refrescar" title="R"></Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>
