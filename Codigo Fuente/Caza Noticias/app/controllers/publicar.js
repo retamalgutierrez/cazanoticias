@@ -199,6 +199,7 @@ function publicar(){
 	    if (!e.success || e.error)
 	    {
 	        alert("Error, debe tener el gps y los permisos de ubicacion activados");
+            loading.hide();
 	        return;
 	    }
 	    longitude = e.coords.longitude;

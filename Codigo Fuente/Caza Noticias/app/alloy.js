@@ -31,4 +31,4 @@ Alloy.Globals.loading = Alloy.createWidget("nl.fokkezb.loading");
 /*** laravel esta con public removido de url */
 //Ti.App.Properties.setString('uri', 'http://10.0.3.2:8000');
 
-Ti.App.Properties.setString('uri', 'http://192.168.0.6:8000');
+Ti.App.Properties.setString('uri', 'http://172.16.176.100:8000');
